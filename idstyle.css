@@ -1,0 +1,82 @@
+body {
+    font-family: 'Mitr', sans-serif;
+    background-color: ghostwhite;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+header img {
+    max-width: 100%;
+    min-height: auto; /* ปรับให้รูปภาพไม่เกินขอบเว็บ */
+}
+header {
+    text-align: center; /* จัดให้ข้อความอยู่ตรงกลาง */
+    padding: 1rem; /* เพิ่มระยะห่างด้านในของ header */
+}
+footer {
+    margin-top: auto; /* ให้ footer อยู่ล่างสุด */
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+    color: blue;
+    text-align: center;
+}
+
+/* Navi */
+.active {
+    background-color: #04AA6D;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* /Navi */
+
+
+
+/* product */
+@media (max-width: 576px) {
+    /* เพิ่มระยะห่างให้กับปุ่ม */
+    .btn {
+      margin-bottom: 10px;
+    }
+}
+.container {
+    border: 2px;
+    padding: 25px;
+    margin-top: 20px;
+    max-width: 650px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.3);
+}
+div{
+    border-radius: 40px
+}
+hr {
+    color: rgb(255, 0, 0);
+    width: 40%; /* กำหนดความกว้างเป็น 50% */
+    margin: 20px auto; /* ตรงกลาง */
+}
+/* /product */
